@@ -36,6 +36,8 @@ python hash_dupes.py -i /path/to/fdupes.txt -o csv_dupes.csv --log=DEBUG
 ## delete_dupes
 
 Delete all duplicates occurences (except one) from a CSV
+
+
 CSV format needs to be /filepath/;hash <LF>
 
 ### Options
