@@ -7,7 +7,7 @@ The workflow is:
 - Launch **hash_dupes** which does a hash of each file listed in the fdupes text file and then output the result in a CSV
 - Launch **delete_dupes** which deletes all duplicates (except one) from the previous CSV file
 
-[fdupes](https://github.com/adrianlopezroche/fdupes)
+[fdupes](https://github.com/adrianlopezroche/fdupes) is a separated, well-known, project
 
 
 ## hash_dupes
