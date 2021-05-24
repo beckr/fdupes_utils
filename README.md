@@ -78,4 +78,6 @@ python delete_dupes.py -i /path/to/csv_dupes.csv -s -c --log=DEBUG
 
 
 Tested with a CSV of 90K files
+
+
 Written & tested with python 2.7
