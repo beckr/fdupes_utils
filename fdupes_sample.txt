@@ -1,0 +1,3 @@
+/Users/me/Desktop/file1.png
+/Users/me/Desktop/Dell.pdf
+/Users/me/Desktop/file1_2.png
