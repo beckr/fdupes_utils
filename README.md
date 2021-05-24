@@ -10,6 +10,14 @@ The workflow is:
 [fdupes](https://github.com/adrianlopezroche/fdupes) is a separated, well-known, project
 
 
+*I know fdupes has a delete option but I like to check, cross-check and check again if gathered duplicates are really duplicates. 
+This is why I've initially written theses little scripts. 
+Before deleting I can simulate what will be deleted and check with file hashes.*
+
+
+*I use theses scripts in conjuction of fdupes on my whole familly data. There are 8+ input sources (phone, pc, etc..) sync on a NAS and backed on a cloud storage.*
+
+
 ## hash_dupes
 Take a list of files, then output CSV file with file & hash for each found file
 
