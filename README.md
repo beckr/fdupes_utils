@@ -7,8 +7,15 @@ The workflow is:
 - Launch **hash_dupes** which does a hash of each file listed in the fdupes text file and then output the result in a CSV
 - Launch **delete_dupes** which deletes all duplicates (except one) from the previous CSV file
 
+## fdupes
 [fdupes](https://github.com/adrianlopezroche/fdupes) is a separated, well-known, project
 
+Example usage of fdupes, recursive mode. 
+
+Runs in background (see active background tasks with `jobs`)
+```
+fdupes -r /my_folder &> /path/to/fdupes.txt &
+```
 
 *I know fdupes has a delete option but I like to check, cross-check and check again if gathered duplicates are really duplicates. 
 This is why I've initially written theses little scripts. 
